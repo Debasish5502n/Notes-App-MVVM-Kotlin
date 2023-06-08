@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notes_bg"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/notes_bg"
+    android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/notes_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funny Story"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hii friends kese hoo app sab me ach hnu Hii friends kese hoo app sab me ach hnu"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
